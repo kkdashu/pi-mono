@@ -1,0 +1,20 @@
+{
+	"name": "@mariozechner/octo-browser",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/cli.ts",
+		"check": "tsgo --noEmit",
+		"test": "vitest --run"
+	},
+	"dependencies": {
+		"@mariozechner/pi-coding-agent": "^0.67.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.5",
+		"typescript": "^5.9.2",
+		"vitest": "^3.2.4"
+	}
+}
+
